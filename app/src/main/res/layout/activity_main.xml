@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="20dp" android:gravity="center_horizontal" android:background="#121212">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MCB VPN" android:textSize="28sp" android:textStyle="bold" android:textColor="#FFC107" android:layout_marginTop="30dp"/>
+<TextView android:id="@+id/statusText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Disconnected" android:textColor="#FFFFFF" android:textSize="18sp" android:layout_marginTop="10dp"/>
+<TextView android:id="@+id/infoBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ping: -- - Disconnected" android:textColor="#BDBDBD" android:background="#1E1E1E" android:padding="15dp" android:layout_marginTop="20dp" android:gravity="center"/>
+<Switch android:id="@+id/toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Connect VPN" android:textColor="#FFFFFF" android:layout_marginTop="30dp"/>
+<Spinner android:id="@+id/serverSpinner" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+<Button android:id="@+id/speedBtn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Run Speed Test" android:backgroundTint="#FFC107" android:textColor="#000000" android:layout_marginTop="20dp"/>
+<Button android:id="@+id/menuBtn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Menu" android:layout_marginTop="10dp"/>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Made by Mcb" android:textColor="#757575" android:layout_marginTop="30dp"/>
+</LinearLayout>
